@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color:#692f15;
+   height: 100vh;
+   overflow-y: auto; 
+   color: #fff;
+}
+header h4 {
+    color: #fff;
+    font-size: 28px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header {
+    padding: 0 10%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: animation2 2s linear;
+
+}
+header :hover {
+    height: 15px;
+    width: 15px;
+    background-color: oldlace;
+}
+
+
+.left_right {
+    padding: 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    width: 45%;
+    animation-delay: 1s;
+    animation: animation1 2s linear;
+}
+
+.left span {
+    color: burlywood;
+    font-size: 12px;
+}
+.left h1 {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 35px;
+    animation-delay: 2s;
+    animation: animation1 2s linear;
+
+}
+.left p {
+    color: #999;
+    font-size: 20px;
+}
+button {
+    border-radius: 10px;
+    animation-delay: 3s;
+    animation: animation1 2s linear;
+    font-size: 20px;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+#bouttonate{
+display: flex;         
+justify-content: center;  
+align-items: center;
+              
+  }
+
+
+.right {
+    width: 40%;
+    perspective: 1000px;
+    
+}
+.right img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    transition: 0.5s;
+    transform-style:preserve-3d;
+    border-radius: 50%;
+    animation-delay: 2s;
+    animation: animation1 2s linear;
+}
+.right img:hover {
+    transform: rotateY(180deg);
+}
+#newPage{text-align: center;
+    animation: animation2 2s linear;
+    font-size: 30px;
+}
+h2{
+    color: burlywood;
+}
+/*Animations pages ess */
+
+@keyframes animation1 {
+    from{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes animation2 {
+    from {
+        transform: translateY(-100px);
+    }
+}
+
+.ilham{
+    text-align: center;
+    border: 1px cornsilk;
+
+}
+
+
+
+
+
+
